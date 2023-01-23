@@ -21,6 +21,7 @@ export class FirstComponent {
   isShowing: boolean = true;
   myName: string = '';
 
+  book: Book[] = [];
   books: Book[] = [
     {
       bookName: 'clean code',
@@ -119,5 +120,9 @@ export class FirstComponent {
 
   toogleShowBooks() {
     this.isShowing = !this.isShowing;
+  }
+
+  addToCart(book: Book) {
+    console.log('Parent component', book);
   }
 }
