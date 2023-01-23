@@ -1,0 +1,21 @@
+<p>second component!</p>
+
+<div>
+  <ul>
+    <li>
+      <a [routerLink]="['child-one']" routerLinkActive="router-link-active"
+        >Child One</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['child-two']" routerLinkActive="router-link-active"
+        >Child Two</a
+      >
+    </li>
+  </ul>
+</div>
+
+<a [routerLink]="['/']" routerLinkActive="router-link-active"
+  >Go Back First Component</a
+>
+<router-outlet></router-outlet>
