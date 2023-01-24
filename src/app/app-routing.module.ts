@@ -1,15 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BooksComponent } from './books/books.component';
 import { ChildOneComponent } from './child-one/child-one.component';
 import { ChildTwoComponent } from './child-two/child-two.component';
-import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { SignupComponent } from './signup/signup.component';
 const routes: Routes = [
   {
     path: '',
-    component: FirstComponent,
+    component: BooksComponent,
   },
   {
     path: 'signup',

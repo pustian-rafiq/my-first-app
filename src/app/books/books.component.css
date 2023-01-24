@@ -1,0 +1,17 @@
+.list-books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.list-books li {
+  padding: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+p {
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  padding: 20px;
+}

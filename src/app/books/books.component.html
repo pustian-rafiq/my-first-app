@@ -1,0 +1,13 @@
+<p *ngIf="title">{{ title }}</p>
+
+<!-- <a [routerLink]="['/second']" routerLinkActive="router-link-active"
+  >Second Component</a
+> -->
+
+<div class="list-books" *ngIf="isShowing">
+  <li *ngFor="let book of books; let i = index">
+    <!-- {{ i + 1 }} -->
+    <!-- show dynamic image -->
+    <app-book (bookEmitter)="addToCart($event)" [book]="book"></app-book>
+  </li>
+</div>
