@@ -16,6 +16,7 @@ import { SignupComponent } from './signup/signup.component';
 import { CartComponent } from './cart/cart.component';
 import { TruncatePipe } from './pipes/truncate.pipe';
 import { TestComponent } from './test/test.component';
+import { HerosComponent } from './heros/heros.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { TestComponent } from './test/test.component';
     CartComponent,
     TruncatePipe,
     TestComponent,
+    HerosComponent,
   ],
   imports: [
     BrowserModule,
