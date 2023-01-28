@@ -9,7 +9,6 @@ import { Book } from '../types/types';
 })
 export class BooksComponent {
   title = 'Books List';
-
   items: any[] = ['Banana', 'Apple', 'Mango'];
 
   isDisabled: boolean = false;

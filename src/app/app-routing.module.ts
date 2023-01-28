@@ -6,10 +6,15 @@ import { ChildOneComponent } from './child-one/child-one.component';
 import { ChildTwoComponent } from './child-two/child-two.component';
 import { SecondComponent } from './second/second.component';
 import { SignupComponent } from './signup/signup.component';
+import { TestComponent } from './test/test.component';
 const routes: Routes = [
   {
     path: '',
     component: BooksComponent,
+  },
+  {
+    path: 'test-angular',
+    component: TestComponent,
   },
   {
     path: 'signup',

@@ -8,6 +8,7 @@
   <li *ngFor="let book of books; let i = index">
     <!-- {{ i + 1 }} -->
     <!-- show dynamic image -->
-    <app-book (bookEmitter)="addToCart($event)" [book]="book"></app-book>
+    <!-- <app-book (bookEmitter)="addToCart($event)" [book]="book"></app-book> -->
+    <app-book [book]="book"></app-book>
   </li>
 </div>

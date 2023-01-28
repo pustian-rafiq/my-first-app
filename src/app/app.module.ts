@@ -13,6 +13,9 @@ import { LoginDialogComponent } from './login-dialog/login-dialog.component';
 import { MaterialModule } from './material/material.module';
 import { SecondComponent } from './second/second.component';
 import { SignupComponent } from './signup/signup.component';
+import { CartComponent } from './cart/cart.component';
+import { TruncatePipe } from './pipes/truncate.pipe';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { SignupComponent } from './signup/signup.component';
     ChildTwoComponent,
     SignupComponent,
     LoginDialogComponent,
+    CartComponent,
+    TruncatePipe,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
